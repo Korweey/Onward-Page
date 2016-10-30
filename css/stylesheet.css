@@ -246,16 +246,60 @@ img{
 			background-image: url("../img/sobbackground.jpeg");
 			background-size: 100% 115px;
 			background-repeat: no-repeat;
-}
+		}
 		.container3c img{
 			width:150px;
 			height: 235px;
 			margin-left: 30px;
 			margin-right: 30px;
 			margin-top: -80px;
-
 		}	
-}
+		.container3c img{
+			width:150px;
+			height: 235px;
+			margin-left: 20px;
+			margin-right: 20px;
+			/*margin-top: -80px;*/
+		}
+		.capabilities{
+			padding-right:200px ;
+			padding-left: 200px;
+			text-align: center;
+			padding-top: 10px;
+			display: block;
+		}	
+		.btn{
+			width: 215px;
+			background-color: #007bff;
+			font-style: #fff;
+			position: relative;
+			display: inline-block;
+			text-align: left;
+			border:none;
+			border-radius: 0;
+			margin-right: -10px;
+		}
+		button{
+			height: 50px;
+			width: 200px;
+			background-color: #0F1FB9;
+			color: #fff;
+			border: 1px solid #EE8CEB;
+			font-size: 15px;
+			border-radius: 40px;
+			/*margin-bottom: -20px;*/
+			/*position: relative;*/
+		}
+		.arrow-right {
+		  width: 0; 
+		  height: 0; 
+		  border-top: 25px solid transparent;
+		  border-bottom: 25px solid transparent;
+		  border-left: 25px solid #007bff;
+		  display: inline-block;
+		  margin-bottom: -22px;
+		  margin-left: 10px;
+		}
 
 @media only screen(min-width: 501px) {
 		body{
@@ -296,6 +340,38 @@ img{
 			margin-right: 30px;
 			margin-top: -80px;
 		}	
+		.btn{
+			width: 215px;
+			background-color: #007bff;
+			font-style: #fff;
+			position: relative;
+			display: inline-block;
+			text-align: left;
+			border:none;
+			border-radius: 0;
+			margin-right: -10px;
+		}
+		button{
+			height: 50px;
+			width: 200px;
+			background-color: #0F1FB9;
+			color: #fff;
+			border: 1px solid #EE8CEB;
+			font-size: 15px;
+			border-radius: 40px;
+			/*margin-bottom: -20px;*/
+			/*position: relative;*/
+		}
+		.arrow-right {
+		  width: 0; 
+		  height: 0; 
+		  border-top: 25px solid transparent;
+		  border-bottom: 25px solid transparent;
+		  border-left: 25px solid #007bff;
+		  display: inline-block;
+		  margin-bottom: -22px;
+		  margin-left: 10px;
+		}
 }
 
 @media only screen(min-width: 1001px) {
