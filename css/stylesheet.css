@@ -147,11 +147,10 @@ img{
 	margin:20px;
 	float: right;
 }
-	.capabilities{
+.capabilities{
 	padding-right:200px ;
 	padding-left: 200px;
 	text-align: center;
-	/*background-color: #CED07B;*/
 	padding-top: 10px;
 }
 .container3{
@@ -214,4 +213,91 @@ img{
 .imglist{
 	width: 15px;
 	height: 15px;
+}
+
+
+
+
+/*-------------media query -----------------*/
+
+@media only screen(max-width: 500px) {
+		body{
+			width: 100%;
+			height: auto;
+			background-color: #E2C0F7;
+		}
+		a{
+
+		}
+		nav{
+			background-color: #999C9F;
+			width: 100%;
+			height: auto;
+			padding-top: 5px;
+			display: block;
+			color: #A9CFF6;
+			font-family: "Brush Script MT", cursive;
+			font-size: 15px;
+		}
+		.container1{
+			width:100%;
+			height: auto;
+			display: inline-block;
+			background-image: url("../img/sobbackground.jpeg");
+			background-size: 100% 115px;
+			background-repeat: no-repeat;
+}
+		.container3c img{
+			width:150px;
+			height: 235px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: -80px;
+
+		}	
+}
+
+@media only screen(min-width: 501px) {
+		body{
+			width: 100%;
+			height: auto;	
+		}
+		a:visited {
+	    	color: green;
+		}
+		a:hover {
+		    color: white;
+		}
+		a:active {
+		    color: blue;
+		}
+		nav{
+			background-color: #999C9F;
+			width: 100%;
+			height: auto;
+			padding-top: 10px;
+			display: block;
+			color: #A9CFF6;
+			font-family: "Brush Script MT", cursive;
+			font-size: 15px;
+		}
+		.container1{
+			width:100%;
+			height: auto;
+			display: inline-block;
+			background-image: url("../img/sobbackground.jpeg");
+			background-size: 100% 115px;
+			background-repeat: no-repeat;
+}
+		.container3c img{
+			width:150px;
+			height: 235px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: -80px;
+		}	
+}
+
+@media only screen(min-width: 1001px) {
+
 }
