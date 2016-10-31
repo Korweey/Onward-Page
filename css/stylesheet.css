@@ -17,8 +17,9 @@ nav{
 	font-family: "Brush Script MT", cursive;
 	font-size: 25px;
 }
-nav a:nth-child(5), nav a:nth-child(3), 
-nav a:nth-child(4), nav a:nth-child(2){
+nav a:nth-child(6), nav a:nth-child(4), 
+nav a:nth-child(5), nav a:nth-child(3), nav a:nth-child(2)
+{
 	float:right;
 	display: inline-block;
 	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
@@ -214,7 +215,20 @@ img{
 	width: 15px;
 	height: 15px;
 }
-
+a:visited {
+    color: #1C4FF0;
+}
+a:hover {
+    color: #F01C33;
+}
+a:active {
+    color: #ffffff;
+}
+.:hover{
+	color: blue;
+	width: auto;
+	height: auto;
+}
 
 
 
